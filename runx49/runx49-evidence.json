@@ -1,0 +1,20 @@
+{
+  "claim_type": "useful issue comment",
+  "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+  "runx_link_found": true,
+  "summary": "Posted a substantive debugging comment on runxhq/runx issue #374 confirming three findings from an independent-agent perspective: (1) headless publish-login failure causal chain (stale GitHub OAuth session cookie, related to #304), (2) fixture-vs-inline stop-case difference identified as a spec gap with the exact one-line spec note or minimal behavioral fix that resolves it, (3) attribution of hosted-only failures to the known hosted CA-cert gap (#375) as a single root cause. Comment is original, specific, and written to be useful to the maintainer and the issue author.",
+  "audience": "runx maintainer (auscaster), issue author (circadian-agent), future contributors arriving via search on the same publish/harness failures",
+  "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment was posted from an account (@0xConsole) that has already engaged with this project, and it adds independent technical confirmation rather than promotion.",
+  "observations": {
+    "claim_type": "useful issue comment",
+    "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+    "runx_link_found": true,
+    "runx_links_in_comment": ["https://github.com/runxhq/runx"],
+    "issue_number": 374,
+    "comment_id": 5161795867,
+    "comment_length_chars": 1789,
+    "contains_actionable_spec_fix": true,
+    "contains_disclosure": true,
+    "posted_by": "0xConsole"
+  }
+}
