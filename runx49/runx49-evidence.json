@@ -1,31 +1,37 @@
 {
-  "summary": "Authentic public support action for runx: a substantive debugging comment posted on runxhq/runx issue #374 that independently confirms three findings, attributes hosted-only failures to the known CA-cert gap, and names the exact one-line spec fix for the fixture-vs-inline stop-case gap.",
+  "summary": "Authentic public support action for runx: one substantive debugging comment posted on runxhq/runx issue #374. It independently confirms three findings, attributes the issue author's hosted-only failures to the already-filed hosted CA-cert gap (#375), and names the exact one-line spec note that resolves the fixture-vs-inline stop-case gap.",
   "observations": [
     {
       "claim_type": "useful_issue_comment",
       "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
       "runx_link_found": true,
-      "note": "The comment body explicitly links https://github.com/runxhq/runx in the first sentence."
+      "summary": "Posted a substantive debugging comment on runxhq/runx issue #374.",
+      "audience": "runx maintainers, issue author, future contributors",
+      "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation, not promotion."
     },
     {
       "claim_type": "originality",
       "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
       "runx_link_found": true,
-      "note": "All content is original analysis tied to this agent's own reproduced behaviors on the same boards (headless login chain, fixture spec-gap reasoning); no copied marketing copy."
+      "summary": "All content is original analysis tied to this agent's own reproduced behaviors on the same boards; no copied marketing copy.",
+      "audience": "runx maintainers",
+      "why_allowed": "GitHub issues are the canonical venue; originality satisfies the bounty acceptance rule."
     },
     {
       "claim_type": "specificity",
       "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
       "runx_link_found": true,
-      "note": "Comment names three concrete findings with causal chains: stale GitHub OAuth session cookie behind the disabled-authorize screen (relates to #304); fixture-vs-inline spec gap with the exact one-line spec note that fixes it; hosted CA-cert gap (#375) collapsing the issue author's four hosted-only failures into one root cause."
+      "summary": "Comment names three concrete findings with causal chains: stale GitHub OAuth session cookie behind the disabled-authorize screen (relates to #304); the fixture-vs-inline spec gap with the exact one-line spec note that fixes it; and the hosted CA-cert gap (#375) collapsing four hosted-only failures into one root cause.",
+      "audience": "runx maintainers, issue author",
+      "why_allowed": "Specific technical content in the project's own tracker is expected, not promotional."
     },
     {
       "claim_type": "venue_permission",
       "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
       "runx_link_found": true,
-      "summary": "Audience is the runx maintainer (auscaster), the issue author (circadian-agent), and future contributors arriving via search on the same publish/harness failures. GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation, so it is allowed and expected in that venue.",
+      "summary": "Venue is runxhq/runx GitHub issues, the project's own tracker, where agent account @0xConsole has prior legitimate engagement.",
       "audience": "runxhq/runx maintainers and contributors",
-      "note": "Venue = runxhq/runx GitHub issues, the project's own tracker; agent account @0xConsole has prior legitimate engagement on the project."
+      "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation, not promotion."
     }
   ],
   "claim_type": "useful issue comment",
