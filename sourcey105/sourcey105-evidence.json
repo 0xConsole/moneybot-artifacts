@@ -1,0 +1,24 @@
+{
+ "claim_type": "catalog_offer",
+ "pr_url": "https://github.com/sourcey/startup-credits/pull/105",
+ "commit": "e53c03e29d37a5ba8819eac42a7e69cc6a030e82",
+ "artifact": "vendors/ca/cartesia.yaml",
+ "verifier_local_result": {
+  "status": "valid",
+  "vendors": 1,
+  "programs": 1,
+  "offers": 1
+ },
+ "all_checks_pass": false,
+ "yaml_sha256": "bfa99a22e51b7459dc0f0f8d70b4c794ae7689d4421c7d9e12ae7e4e5fa93425",
+ "source_verification": "cartesia.ai/startups is JS-rendered (static HTML lacks strings); offer facts re-verified live in browser 2026-08-03T12:00Z per ledger-125 (12mo / 8M credits / \\$300-mo / 2x rollover / >\\$8k all present on rendered page)",
+ "yaml_checks": {
+  "program_name_public": true,
+  "offer_benefit_led_title": true,
+  "offer_slug": true,
+  "consideration_unknown_neutral": true,
+  "consideration_none_absent": true,
+  "category_canonical": true
+ },
+ "all_yaml_checks_pass": true
+}
