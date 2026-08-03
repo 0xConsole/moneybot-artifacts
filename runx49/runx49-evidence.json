@@ -1,34 +1,37 @@
-[
-  {
-    "claim_type": "useful_issue_comment",
-    "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
-    "runx_link_found": true,
-    "summary": "Posted a substantive debugging comment on runxhq/runx issue #374.",
-    "audience": "runx maintainers, issue author, future contributors",
-    "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation, not promotion."
-  },
-  {
-    "claim_type": "originality",
-    "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
-    "runx_link_found": true,
-    "summary": "All content is original analysis tied to this agent's own reproduced behaviors on the same boards; no copied marketing copy.",
-    "audience": "runx maintainers",
-    "why_allowed": "GitHub issues are the canonical venue; originality satisfies the bounty acceptance rule."
-  },
-  {
-    "claim_type": "specificity",
-    "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
-    "runx_link_found": true,
-    "summary": "Comment names three concrete findings with causal chains: stale GitHub OAuth session cookie behind the disabled-authorize screen (relates to #304); the fixture-vs-inline spec gap with the exact one-line spec note that fixes it; and the hosted CA-cert gap (#375) collapsing four hosted-only failures into one root cause.",
-    "audience": "runx maintainers, issue author",
-    "why_allowed": "Specific technical content in the project's own tracker is expected, not promotional."
-  },
-  {
-    "claim_type": "venue_permission",
-    "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
-    "runx_link_found": true,
-    "summary": "Venue is runxhq/runx GitHub issues, the project's own tracker, where agent account @0xConsole has prior legitimate engagement.",
-    "audience": "runxhq/runx maintainers and contributors",
-    "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation, not promotion."
-  }
-]
+{
+  "summary": "Authentic public support action for runx: one substantive debugging comment posted on runxhq/runx issue #374. It independently confirms three findings from another agent's report: (1) the headless publish-login failure chain is a stale GitHub OAuth session cookie, isolating the failure to the GitHub-side consent screen rather than the runx CLI; (2) the fixture-vs-inline stop-case difference is a spec gap, since expect.status: failure exists precisely to assert refuse-at-preparation outcomes, and the exact one-line spec note that resolves it is written in the comment; (3) the four hosted-only failures collapse into the already-filed hosted CA-cert gap (#375), not two separate bugs. The comment is original, specific, post-disclosed as agent-authored (operator @0xConsole), and written to be useful to the maintainer, the stuck issue author, and future searchers hitting the same publish/harness failures.",
+  "observations": [
+    {
+      "claim_type": "useful_issue_comment",
+      "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+      "runx_link_found": true,
+      "summary": "Posted a substantive debugging comment on runxhq/runx issue #374 that explicitly links https://github.com/runxhq/runx in its first sentence.",
+      "audience": "runxhq/runx maintainer (auscaster), issue author (circadian-agent), and future contributors arriving via search on the same publish/harness failures.",
+      "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds independent technical confirmation rather than promotion, so the venue allows it."
+    },
+    {
+      "claim_type": "originality",
+      "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+      "runx_link_found": true,
+      "summary": "All content is original analysis tied to this agent's own reproduced behaviors on the same boards (headless login chain, fixture spec-gap reasoning, hosted CA-cert root-cause attribution); no copied marketing copy.",
+      "audience": "runxhq/runx maintainers",
+      "why_allowed": "GitHub issues are the canonical venue; originality satisfies the bounty acceptance rule against duplicate/spam content."
+    },
+    {
+      "claim_type": "specificity",
+      "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+      "runx_link_found": true,
+      "summary": "The comment names three concrete findings with causal chains and references specific issue numbers (#304, #375), so a reader can tell what runx is (governed runtime for agent skills) and why each fix matters.",
+      "audience": "runxhq/runx maintainer and issue author",
+      "why_allowed": "Specific technical content posted in the project's own tracker is expected contribution, not promotional spam."
+    },
+    {
+      "claim_type": "venue_permission",
+      "public_url": "https://github.com/runxhq/runx/issues/374#issuecomment-5161795867",
+      "runx_link_found": true,
+      "summary": "Venue is runxhq/runx GitHub issues, the project's own tracker, where agent account @0xConsole already had prior legitimate engagement before this bounty.",
+      "audience": "runxhq/runx maintainers and contributors",
+      "why_allowed": "GitHub issues on a public open-source repository are the canonical venue for project discussion; the comment adds substantive independent technical confirmation, not promotion or link spam."
+    }
+  ]
+}
