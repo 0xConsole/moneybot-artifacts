@@ -1,0 +1,20 @@
+{
+  "summary": "Sourcey-generated API reference documentation for the Swagger Petstore (OpenAPI 3.0) example library.",
+  "observations": {
+    "ecosystem": "OpenAPI/Swagger",
+    "repo": "https://github.com/swagger-api/swagger-petstore",
+    "commit": "master",
+    "license": "Apache-2.0",
+    "adapter": "openapi",
+    "command": "sourcey build /tmp/petstore-minimal.json -o /tmp/pt-min-dist",
+    "sourcey_version": "sourcey v3.6.5",
+    "runx_version": "runx-cli 0.8.2",
+    "page_list": ["index.html", "sourcey.css", "sourcey.js", "search-index.json", "llms.txt", "llms-full.txt"],
+    "gaps": "Schemas were minimalized for size compliance; full schema details available in original spec",
+    "public_url": "https://0xconsole.github.io/moneybot-artifacts/",
+    "api_count": 19,
+    "schema_count": 6,
+    "tag_count": 3,
+    "total_concepts": 41
+  }
+}
