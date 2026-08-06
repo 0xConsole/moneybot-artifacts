@@ -1,0 +1,26 @@
+# Swagger Petstore - OpenAPI 3.0
+
+> This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about
+
+## API Reference
+
+- [Swagger Petstore - OpenAPI 3.0](/api.html): This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about
+- [Add a new pet to the store.](/api.html#operation-pet-post): POST /pet - Add a new pet to the store.
+- [Update an existing pet.](/api.html#operation-pet-put): PUT /pet - Update an existing pet by Id.
+- [Finds Pets by status.](/api.html#operation-pet-findbystatus-get): GET /pet/findByStatus - Multiple status values can be provided with comma separated strings.
+- [Finds Pets by tags.](/api.html#operation-pet-findbytags-get): GET /pet/findByTags - Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+- [Find pet by ID.](/api.html#operation-pet-petid-get): GET /pet/{petId} - Returns a single pet.
+- [Updates a pet in the store with form data.](/api.html#operation-pet-petid-post): POST /pet/{petId} - Updates a pet resource based on the form data.
+- [Deletes a pet.](/api.html#operation-pet-petid-delete): DELETE /pet/{petId} - Delete a pet.
+- [Uploads an image.](/api.html#operation-pet-petid-uploadimage-post): POST /pet/{petId}/uploadImage - Upload image of the pet.
+- [Returns pet inventories by status.](/api.html#operation-store-inventory-get): GET /store/inventory - Returns a map of status codes to quantities.
+- [Place an order for a pet.](/api.html#operation-store-order-post): POST /store/order - Place a new order in the store.
+- [Find purchase order by ID.](/api.html#operation-store-order-orderid-get): GET /store/order/{orderId} - For valid response try integer IDs with value <= 5 or > 10. Other values will generate exceptions.
+- [Delete purchase order by identifier.](/api.html#operation-store-order-orderid-delete): DELETE /store/order/{orderId} - For valid response try integer IDs with value < 1000. Anything above 1000 or non-integers will generate API errors.
+- [Create user.](/api.html#operation-user-post): POST /user - This can only be done by the logged in user.
+- [Creates list of users with given input array.](/api.html#operation-user-createwithlist-post): POST /user/createWithList - Creates list of users with given input array.
+- [Logs user into the system.](/api.html#operation-user-login-get): GET /user/login - Log into the system.
+- [Logs out current logged in user session.](/api.html#operation-user-logout-get): GET /user/logout - Log user out of the system.
+- [Get user by user name.](/api.html#operation-user-username-get): GET /user/{username} - Get user detail based on username.
+- [Update user resource.](/api.html#operation-user-username-put): PUT /user/{username} - This can only be done by the logged in user.
+- [Delete user resource.](/api.html#operation-user-username-delete): DELETE /user/{username} - This can only be done by the logged in user.
